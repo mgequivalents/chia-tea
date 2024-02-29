@@ -1,6 +1,6 @@
 {
   "name": "chia-tea",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chia tea module",
   "main": "index.js",
   "scripts": {
