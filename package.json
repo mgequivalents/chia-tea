@@ -1,8 +1,13 @@
 {
   "name": "chia-tea",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Chia tea module",
   "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgequivalents/chia-tea.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
