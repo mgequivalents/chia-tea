@@ -2,7 +2,7 @@
  Some Description
 **/
 const getData = () => {
-    return 'data';
+    return `today: ${Date.now()}`;
 }
 
 module.exports = getData;
