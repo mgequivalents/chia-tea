@@ -1,3 +1,6 @@
+/**
+ Some Description
+**/
 const getData = () => {
     return 'data';
 }
