@@ -5,4 +5,15 @@ const getData = () => {
     return `today: ${Date.now()}`;
 }
 
-module.exports = getData;
+/**
+* Reverse String
+*/
+const reverseString = (str) => {
+    return str.split('').reverse().join('');
+}
+
+
+module.exports = {
+  reverseString,
+  getData
+};
