@@ -22,7 +22,7 @@ const isIdenticalString = (strOne, strTwo) => {
 /**
 * Capitalize First Letter
 */
-const capitalizeFirstLetter = (strOne, strTwo) => {
+const capitalizeFirstLetter = (word) => {
     const firstLetter = word.charAt(0)
     const firstLetterCap = firstLetter.toUpperCase()
     const remainingLetters = word.slice(1)
