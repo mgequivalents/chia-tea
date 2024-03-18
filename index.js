@@ -19,8 +19,19 @@ const isIdenticalString = (strOne, strTwo) => {
     return strOne === strTwo;
 }
 
+/**
+* Capitalize First Letter
+*/
+const capitalizeFirstLetter = (word) => {
+    const firstLetter = word.charAt(0)
+    const firstLetterCap = firstLetter.toUpperCase()
+    const remainingLetters = word.slice(1)
+    return `${firstLetterCap}${remainingLetters}`;
+}
+
 module.exports = {
   reverseString,
   isIdenticalString,
+  capitalizeFirstLetter,
   getData
 };
