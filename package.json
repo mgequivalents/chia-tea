@@ -1,6 +1,6 @@
 {
   "name": "chia-tea",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Chia tea module",
   "main": "index.js",
   "license": "MIT",
