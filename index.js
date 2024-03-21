@@ -20,6 +20,15 @@ function upperCase(str) {
 }
 
 /**
+ * Add space between camelCase text
+ */
+function spaceCamelCase(str) {
+  str = str.replace(/([a-z\xE0-\xFF])([A-Z\xC0\xDF])/g, "$1 $2");
+  str = str.toLowerCase();
+  return str;
+}
+
+/**
  * Replaces all accented characters with normal characters
  */
 function replaceAccented(str) {
