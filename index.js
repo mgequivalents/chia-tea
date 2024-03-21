@@ -1,9 +1,3 @@
-/**
- Some Description
-**/
-const getData = () => {
-    return `today: ${Date.now()}`;
-}
 
 /**
  * String.toLowerCase wrapper
@@ -104,6 +98,13 @@ function camelCase(str) {
   return str;
 }
 
+/**
+ * UPPERCASE first char of each sentence and lowercase other chars.
+ */
+function sentenceCase(str) {
+  return lowerCase(str).replace(/(^\w)|\.\s+(\w)/gm, upperCase);
+}
+
 module.exports = {
   reverseString,
   isIdenticalString,
@@ -111,7 +112,8 @@ module.exports = {
   lowerCase,
   upperCase,
   camelCase,
+  sentenceCase,
   replaceAccented,
   removeNonWordChar,
-  getData
+  spaceCamelCase
 };
