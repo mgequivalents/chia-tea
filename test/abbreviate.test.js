@@ -1,4 +1,3 @@
-
 import abbreviate from '../lib/abbreviate';
 
 describe('abbreviate', () => {
