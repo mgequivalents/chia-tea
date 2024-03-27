@@ -1,0 +1,8 @@
+{
+  "bail": 1,
+  "verbose": true,
+  "testEnvironment": "jest-environment-node",
+  "transform": {
+    "^.+\\.jsx?$": "babel-jest"
+  }
+}
